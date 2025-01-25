@@ -12,3 +12,6 @@ NewsApp is a responsive web application that delivers the latest news updates in
 - **Styling**: Bootstrap or custom CS
 - **API Integration**: NewsAPI.org or other news sources
 
+## My App Preview
+![App Preview](./src/Preview.png)
+
