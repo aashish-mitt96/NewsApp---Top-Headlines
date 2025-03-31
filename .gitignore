@@ -1,0 +1,11 @@
+# Ignore environment variables
+server/.env
+client/.env
+
+# Ignore node_modules
+server/node_modules/
+client/node_modules/
+
+# Ignore build files
+server/dist/
+client/build/
