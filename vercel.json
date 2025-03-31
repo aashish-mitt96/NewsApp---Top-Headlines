@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "server/package.json",
+        "use": "@vercel/node"
+      }
+    ],
+    "env": {
+      "NEWS_API_KEY": "@NEWS_API_KEY"
+    }
+  }
+  
