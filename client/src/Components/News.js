@@ -11,7 +11,9 @@ export default function News({ mode }) {
   const pageSize = 9;
 
   useEffect(() => {
-    const apiUrl = `http://localhost:5000/api/news?pageSize=${pageSize}&page=${page}`;
+    console.log("Backend Base URL:", process.env.REACT_APP_BACKEND_BASE);
+
+    const apiUrl = `${process.env.REACT_APP_BACKEND_BASE}/api/news?pageSize=${pageSize}&page=${page}`;
   
     const fetchData = async () => {
       setLoading(true);
