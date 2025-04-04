@@ -1,12 +1,3 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "api/news.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "env": {
-    "NEWS_API_KEY": "da23b48ecb7241588c000b28f98b6f93"
-  }
+  "version": 2
 }
